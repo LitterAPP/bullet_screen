@@ -1,0 +1,104 @@
+page{
+  background: #000;
+}
+.cover{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0);
+}
+
+.tools{
+  position: fixed;
+  left: 0px;
+  bottom: 30px;
+}
+
+.tools_1{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.tools_1 text{
+  display: block;
+  background: #ccc;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+.tools_2{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tools-box{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tools-box text{
+  color: #ccc;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+.tools-box input{
+  height: 35px;
+  width: 200px;
+  line-height: 35px;
+  border-bottom: 1px dotted #ccc;
+  color: #fff;
+}
+
+.box-button{
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  color: #ccc;
+  margin: 5px 5px;
+  padding: 3px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+}
+.box-button-border{   
+  border:2px solid #fff;
+}
+.box-button-bg{   
+  background: #1296db;
+}
+
+.box-button-hover{
+  border:0px;
+  background: #1296db;
+  color: #fff;
+}
+
+.controls{
+   position: fixed;   
+   bottom: 5px;
+   background: rgba(0,0,0,0.6);
+   height: 25px;
+   line-height: 25px;
+   width: 40px;
+   padding: 2px;  
+   color: #515151;
+   text-align: center;   
+}

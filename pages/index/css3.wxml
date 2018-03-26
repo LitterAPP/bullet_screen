@@ -1,0 +1,3 @@
+<view class='animation'>
+ <text>我是动画滚动</text>
+</view>
